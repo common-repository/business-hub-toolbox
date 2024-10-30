@@ -1,0 +1,166 @@
+/*Pricing table css*/
+.rwspt-pricing-table-wrapper {
+    background: #ddd;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.rwspt-pricing-table-wrapper .pricing-column-wrapper {
+    padding: 0 15px;
+    min-width: 25%;
+    float: left;
+    margin-bottom: 40px;
+}
+.rwspt-pricing-table-wrapper.one .pricing-column-wrapper {
+    width: 100%;
+}
+.rwspt-pricing-table-wrapper.two .pricing-column-wrapper  {
+    width: 50%;
+}
+.rwspt-pricing-table-wrapper.three .pricing-column-wrapper {
+    width: 33.33333%;
+}
+.rwspt-pricing-table-wrapper.four .pricing-column-wrapper  {
+    width: 25%;
+}
+.rwspt-pricing-table-wrapper header {
+    padding: 50px 0 20px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.rwspt-pricing-table-wrapper hr {
+    width: 20%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.rwspt-pricing-table-wrapper p,
+.rwspt-price-suffix{
+    color:#acacac
+}
+.rwspt-price-column {
+    padding: 0px 0 30px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+    margin-top: 3px;
+}
+
+
+.rwspt-price-column:hover {
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15); 
+    -webkit-box-shadow: 0 20px 25px rgba(0,0,0,0.15); 
+    margin-top: 0;
+}
+.rwspt-price-column.active-plan:hover {
+    margin-top: -50px;
+}
+.rwspt-price-header {
+    background: #3d3d3d;
+    padding: 40px 10px 20px;
+    color:#fff;
+}
+.rwspt-price-header span {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.rwspt-price {
+    background: #e6e6e6;
+    font-weight: 300;
+    padding: 10px;
+}
+.rwspt-price .rwspt-price-number {
+    font-size: 60px;
+    color: #1e435a;
+}
+.rwspt-price-prefix {
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+}
+
+.active-plan {
+    margin-top: -47px;
+}
+.active-plan .rwspt-price-header {
+    padding: 60px 10px 30px;
+    background: #1e435a;
+}
+.active-plan .rwspt-price {
+    padding: 20px 10px;
+    background: #d4d2d2;
+}
+.rwspt-pricing-table-wrapper ul {
+    margin: 0
+}
+.rwspt-pricing-table-wrapper ul li {
+    border-bottom: 1px solid #ddd;
+    color: #666;
+    list-style: none;
+    margin: 0;
+    padding: 20px 10px;
+}
+.rwspt-price-table-content ul li i {
+    padding-right: 5px;
+}
+
+.rwspt-btn-business{
+    -moz-border-radius: 5px;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    background: #1e435a;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 15px 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+.pricing-table-wrapper a.rwspt-btn-business {
+    margin-top: 30px;
+}
+
+.rwspt-btn-business:hover {
+    background: #185175;
+    color: #fff;
+    opacity: 1;
+}
+/*respoonsive start*/
+@media only screen and (max-width:1023px){
+    .rwspt-pricing-table-wrapper.three .pricing-column-wrapper {
+        width: 50%;
+    }
+}
+@media only screen and (max-width:767px){
+    .rwspt-pricing-table-wrapper.three .pricing-column-wrapper {
+        width: 100%;
+    }
+    .rwspt-pricing-table-wrapper {
+        padding: 10px;
+    }
+    .rwspt-pricing-table-wrapper header {
+        padding: 30px 0 20px;
+        margin-bottom: 10px;
+    }
+    .active-plan {
+        margin-top: 0;
+    }
+    .rwspt-pricing-table-wrapper .pricing-column-wrapper {
+        padding: 0 5px;
+    }
+}
+
+/*respoonsive start*/

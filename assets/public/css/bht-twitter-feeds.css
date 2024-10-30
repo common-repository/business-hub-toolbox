@@ -1,0 +1,142 @@
+/* twitter feed style start*/
+
+.twitter-feed {
+    background-size: 100%;
+    background: #1da1f2 url(../images/tweet-bg.png) no-repeat;
+    margin-top: 70px;
+    padding: 70px;
+    text-align: center;
+    box-sizing: border-box;
+}
+section.twitter-feed {
+    margin-top: 70px;
+}
+.ut-twitter-rotator h2 {
+    font-size: 22px;
+    color:#fff;
+}
+.ut-twitter-rotator .span.ut-quote-name, 
+.ut-twitter-rotator .ut-quote-name {
+    margin: 5px auto;
+    font-size: 13px;
+    display: block;
+}
+.ut-twitter-rotator h2 a:hover,
+.twitter-feed i {
+    color: #fff;
+}
+.twitter-feed .owl-carousel .owl-stage-outer .item:after {
+    background: transparent;
+}
+.twitter-feed .item ,
+.twitter-feed .item  a{
+    position: relative;
+    z-index: 99;
+}
+
+.twitter-feed .item  a{
+    margin-top: 10px;
+    display: inline-block;
+}
+aside.widget.twitter-feed .item  a{
+    color: #48aae6;
+}
+.twitter-feed .owl-controls .owl-prev,
+.twitter-feed .owl-controls .owl-next {
+    -moz-border-radius: 50%;
+    -moz-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    -webkit-border-radius: 50%;
+    -webkit-transform: translateY(30%); 
+    background: #166ca0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 5px;
+    position: relative;
+    transform: translateY(30%);
+    width: 35px;
+    z-index: 999;
+}
+.twitter-feed .owl-controls .owl-prev:hover,
+.twitter-feed .owl-controls .owl-next:hover {
+    background: #1e435a;
+}
+
+.twitter-feed .owl-carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*twitter feed style end*/
+
+/*twitter widget start*/
+div#widget-twitter-feed {
+    text-align: center;
+}
+aside.twitter-feed {
+    background-color: inherit;
+    background-image: none;
+    text-align: left;
+    padding: 10px;
+    margin-top: 0;
+}
+aside.widget .ut-twitter-rotator h2,
+aside.widget.twitter-feed i {
+    font-size: 18px;
+    color: #666;
+}
+.widget.twitter-feed .owl-controls {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.widget.twitter-feed .owl-controls .owl-prev, 
+.widget.twitter-feed .owl-controls .owl-next {
+    background: #ddd;
+    height: 25px;
+    line-height: 19px;
+    width: 25px;
+
+}
+.widget.twitter-feed .owl-controls .owl-prev:hover, 
+.widget.twitter-feed .owl-controls .owl-next:hover {
+    background: #1e435a;
+
+}
+.widget.twitter-feed .owl-controls .owl-next:hover:before,
+.widget.twitter-feed .owl-controls .owl-prev:hover:before {
+    color:#fff;
+}
+.widget.twitter-feed .owl-controls .owl-next:before,
+.widget.twitter-feed .owl-controls .owl-prev:before {
+    color: #1e435a;
+    font-size: 14px;
+}
+
+/*twitter widget end*/
+
+/*responsive*/
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (min-width:1024px){
+    section.twitter-feed .item {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    .twitter-feed {
+        margin-top: 30px;
+        padding: 20px 0px;
+    }
+}
+
+@media only screen and (max-width:1199px){
+    .twitter-feed {
+        margin-top: 50px;
+        padding: 40px;
+    }
+}
